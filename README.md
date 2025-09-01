@@ -12,6 +12,9 @@ FdF is a 3D wireframe renderer for 42cursus, built with C and MiniLibX. It visua
 - **Bonus**: Camera, projections, coloring, animation, and more
 - **Norminette & Valgrind**: Fully compliant and memory-leak free
 
+## Demo
+![Wireframe Animation Demo](video/whole_world_animation_4x_speed.gif)
+
 ## File Structure
 ```
 src/
@@ -41,9 +44,6 @@ make
 # Custom window size:
 make WINDOW_WIDTH=1200 WINDOW_HEIGHT=900
 ```
-
-## Demo
-![Wireframe Animation Demo](video/whole_world_animation_4x_speed.gif)
 
 ## Controls
 - **W/A/S/D**: Move camera
